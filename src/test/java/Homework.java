@@ -13,6 +13,8 @@ public class Homework {
             int TotalInterest2 = Loan * Interest2 * Years;
             int TotalInterest3 = Loan * Interest3 * Years;
 
+            System.out.println( "Interest for first 10 years: " + TotalInterest1);
+
 
 
 
