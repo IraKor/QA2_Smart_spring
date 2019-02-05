@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class Homework {
@@ -23,13 +24,13 @@ public class Homework {
             int grandTotalInterests = totalInterest1 + totalInterest2 + totalInterest3;
             int grandTotalAmountPaid = loan + grandTotalInterests;
 
+
             System.out.println("Interest for first 10 years: " + totalInterest1);
             System.out.println("Interests for next 10 years: " + totalInterest2);
             System.out.println("Interests for last 10 years: " + totalInterest3);
             System.out.println("Grand total amount paid: " + grandTotalAmountPaid);
 
-
-
+            Assertions.assertEquals(220040, grandTotalAmountPaid , "Result is not correct!");
 
     }
 
