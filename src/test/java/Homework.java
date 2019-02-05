@@ -26,7 +26,7 @@ public class Homework {
             System.out.println("Interest for first 10 years: " + totalInterest1);
             System.out.println("Interests for next 10 years: " + totalInterest2);
             System.out.println("Interests for last 10 years: " + totalInterest3);
-            System.out.println("Grand total amount paid: " +grandTotalAmountPaid);
+            System.out.println("Grand total amount paid: " + grandTotalAmountPaid);
 
 
 
