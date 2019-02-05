@@ -20,7 +20,7 @@ public class Homework {
             int loanLast10Years = loanNext10Years - principal10Years;
             int totalInterest3 = loanLast10Years * interest3 * years / rate;
 
-            int grandTotalInterests = totalInterest1 + totalInterest1 + totalInterest3;
+            int grandTotalInterests = totalInterest1 + totalInterest2 + totalInterest3;
             int grandTotalAmountPaid = loan + grandTotalInterests;
 
             System.out.println("Interest for first 10 years: " + totalInterest1);
