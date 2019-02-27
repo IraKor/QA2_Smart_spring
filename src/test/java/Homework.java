@@ -33,6 +33,5 @@ public class Homework {
             Assertions.assertEquals(220040, grandTotalAmountPaid , "Result is not correct!");
 
     }
-
-    }
+}
 
